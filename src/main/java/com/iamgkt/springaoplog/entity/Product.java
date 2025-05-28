@@ -1,4 +1,6 @@
-package com.iamgkt.springaoplog.entity;import jakarta.persistence.Entity;
+package com.iamgkt.springaoplog.entity;
+
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;

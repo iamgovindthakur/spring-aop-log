@@ -1,4 +1,4 @@
-package com.iamgkt.springaoplog.aspects;
+package com.iamgkt.springaoplog.config;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -48,7 +48,7 @@ public class LoggingAspect {
           traceId,
           className,
           methodName,
-          e.toString(),
+              e,
           e);
       throw e;
     }
